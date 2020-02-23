@@ -20,9 +20,9 @@ Provide the X & Z coordinates of any position within a chunk in *Minecraft* &amp
 
 ### Preview (place holder - coming soon)
 
-Quick video preview: [MCG on YouTube]()
+<span style="text-decoration: line-through;">Quick video preview: [MCG on YouTube]()</span>
 
-![ScreenShotA](images/previewa.png) ![ScreenShotB](images/previewb.png) ![ScreenShotC](images/icon.png)
+![ScreenShotA](./images/previewa.png) ![ScreenShotB](./images/previewb.png) ![ScreenShotC](./images/icon.png)
 
 ## Installation
 
@@ -30,23 +30,52 @@ This is an *open source* project &amp; there are a few ways you can use this; bo
 
 You can even grab the source project &amp; compile yourself if you know how to do so.
 
+### Windows Install
+
+#### Installer
+
+Download the EXE and MSI file and double click the EXE (or run from cmd).
+
+#### Portable (Compiled)
+
+Download the Compiled Portable/Archive &amp; extract it to wherever you like your portable programs. Run the provided EXE in the main folder to run the program.
+
+### Linux Install
+
+#### Portable (Compiled)
+
+AppImages are easy just download the Linux Compiled AppImage/Portable &amp; place it where you want it &amp; run by either double clicking (or however you have execution set up) or from the shell:
+
+```Bash
+$ cd /path/to/AppImage/
+$ ./mc_chunk_get_v2.AppImage &
+```
+
+or
+
+```Bash
+$ /path/to/AppImage/mc_chunk_get_v2.AppImage &
+```
+
+You can change the AppImage's name to whatever you like E.g.: 'mcchunkgetv2' &amp; place it in your $PATH of choice.
+
 ### Files
 
 #### Windows
 
-|Type|Method|Files|
+|Type|File Type|File/s|
 | --------- | --------- | --------- |
-|Installer (Pt1 - used with the file below)    |EXE|[Placeholder]()|
-|Installer (Pt2 - used with the file above)    |MSI|[Placeholder]()|
-|Compiled      |Portable|[Placeholder]()|
-|Source      |Project Files|[Placeholder]()|
+|Installer (Pt1 - used with the file below)    |EXE/Installer|[Placeholder]()|
+|Installer (Pt2 - used with the file above)    |MSI/Installer|[Placeholder]()|
+|Compiled      |Portable/Archive|[Placeholder]()|
+|Source      |Project Files/Archive|[Placeholder]()|
 
 #### Linux
 
-|Type|Method|Files|
+|Type|File Type|File/s|
 | --------- | --------- | --------- |
-|Compiled      |Portable|[Placeholder]()|
-|Source      |Project Files|[Placeholder]()|
+|Compiled      |AppImage/Portable|[MC_Chunk_Get-x86_64.AppImage](Linux/compiled/MC_Chunk_Get-x86_64.AppImage)|
+|Source      |Project Files/Archive|[source_mc_chunk_get.tar.gz](Linux/src/source_mc_chunk_get.tar.gz)|
 
 #### Mac - Not Available
 
@@ -62,6 +91,22 @@ Or you can get all files &amp; sources for all OSes at the projects release page
 | --- |
 |<a name="note1"><sup>1: Python - A high level, interpreted programming language.</sup></a>|
 |<a name="note2"><sup>2: AutoHotkey - A full featured Windows scripting language with hotkey &amp; gui support &amp; focus on automation.</sup></a>|
+
+This has been tested on both Windows &amp; Linux:
+
+Linux:
+
+```Bash
+$ cat /etc/*-release|grep "PRETTY_NAME"|cut -d'=' -f2
+"Ubuntu 18.04.4 LTS"
+$ uname -a|awk '{print $1" "$3" "$11}'
+Linux 5.3.0-7625-generic x86_64
+```
+
+Windows:
+
+Windows 10 x86_64 - more to come.
+
 
 ## License
 

@@ -2,7 +2,11 @@
 
 UNDER CONSTRUCTION! - Will be ready soon!
 
-![Badge 1](images/gu.png) ![Badge 2](images/mg.png) ![Badge 3](images/mu.png) ![Badge 4](images/oc.png) ![Badge 5](images/pc.png) ![Badge 6](images/pp.png) ![Badge 7](images/ps.png)
+![Badge 1](images/gu.png) ![Badge 2](images/mg.png) ![Badge 3](images/mu.png)
+
+![Badge 4](images/oc.png) ![Badge 5](images/pc.png)
+
+![Badge 6](images/pp.png) ![Badge 7](images/ps.png)
 
 Get coordinate boundaries of a chunk by providing any x, z coordinates inside of that chunk in **Minecraft**.
 
@@ -22,7 +26,11 @@ Provide the X & Z coordinates of any position within a chunk in *Minecraft* &amp
 
 <span style="text-decoration: line-through;">Quick video preview: [MCG on YouTube]()</span>
 
-![ScreenShotA](./images/previewa.png) ![ScreenShotB](./images/previewb.png) ![ScreenShotC](./images/icon.png)
+![ScreenShotA](./images/previewa.png)
+
+![ScreenShotB](./images/previewb.png)
+
+![ScreenShotC](./images/icon.png)
 
 ## Installation
 
@@ -44,16 +52,18 @@ Download the Compiled Portable/Archive &amp; extract it to wherever you like you
 
 #### Portable (Compiled)
 
-AppImages are easy just download the Linux Compiled AppImage/Portable &amp; place it where you want it &amp; run by either double clicking (or however you have execution set up) or from the shell:
+AppImages are easy just download the Linux Compiled AppImage/Portable &amp; place it where you want it &amp; make it executable &amp; run it by either double clicking (or however you have execution set up) or from the shell:
 
 ```Bash
 $ cd /path/to/AppImage/
+$ chmod u+x mc_chunk_get_v2.AppImage # set executable
 $ ./mc_chunk_get_v2.AppImage &
 ```
 
 or
 
 ```Bash
+$ chmod u+x /path/to/AppImage/mc_chunk_get_v2.AppImage
 $ /path/to/AppImage/mc_chunk_get_v2.AppImage &
 ```
 
@@ -74,8 +84,8 @@ You can change the AppImage's name to whatever you like E.g.: 'mcchunkgetv2' &am
 
 |Type|File Type|File/s|
 | --------- | --------- | --------- |
-|Compiled      |AppImage/Portable|[MC_Chunk_Get-x86_64.AppImage](Linux/compiled/MC_Chunk_Get-x86_64.AppImage)|
-|Source      |Project Files/Archive|[source_mc_chunk_get.tar.gz](Linux/src/source_mc_chunk_get.tar.gz)|
+|Compiled      |AppImage/Portable|[MC_Chunk_Get-x86_64.AppImage](./Linux/compiled/MC_Chunk_Get-x86_64.AppImage)|
+|Source      |Project Files/Archive|[source_mc_chunk_get.tar.gz](./Linux/src/source_mc_chunk_get.tar.gz)|
 
 #### Mac - Not Available
 

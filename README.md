@@ -26,7 +26,7 @@ Very simple to use, you can run it like any other gui application in your respec
 
 Provide the X & Z coordinates of any position within a chunk in *Minecraft* &amp; click [Copy] (or Alt+c) to copy the coordinates into your clipboard. This program shows the coordinate pair as soon as you provide both coordinates &amp; will clear if both cooridinates are not provided. You can clear all input with the [Clear] button (or Alt+p).
 
-### Preview (place holder - coming soon)
+### Preview
 
 Quick video preview: [MCG on YouTube](https://youtu.be/ao1YxG-eQdA "MCG on YouTube")
 
@@ -77,7 +77,7 @@ You can change the AppImage's name to whatever you like E.g.: 'mcchunkgetv2' &am
 
 |Type|File Type|File/s|
 | --------- | --------- | --------- |
-|Installer  |EXE/Installer  |[MC Chunk Get V2.exe]("./Windows/installer/MC\ Chunk\ Get\ V2.exe" "Windows Installer")    |
+|Installer  |EXE/Installer  |[MC_Chunk_Get_V2.exe]("./Windows/installer/MC_Chunk_Get_V2.exe" "Windows Installer")    |
 |Compiled      |Portable/Archive|[portable_mc_chunk_get_v2.zip]("./Windows/compiled/portable_mc_chunk_get_v2.zip" "Windows Portable")|
 |Source      |Project Files/Archive|[source_mc_chunk_get_v2_win.zip]("Windows/src/source_mc_chunk_get_v2_win.zip" "Windows Source")|
 

@@ -77,9 +77,9 @@ You can change the AppImage's name to whatever you like E.g.: 'mcchunkgetv2' &am
 
 |Type|File Type|File/s|
 | --------- | --------- | --------- |
-|Installer  |EXE/Installer  |[MC_Chunk_Get_V2.exe]("./Windows/installer/MC_Chunk_Get_V2.exe" "Windows Installer")    |
-|Compiled      |Portable/Archive|[portable_mc_chunk_get_v2.zip]("./Windows/compiled/portable_mc_chunk_get_v2.zip" "Windows Portable")|
-|Source      |Project Files/Archive|[source_mc_chunk_get_v2_win.zip]("Windows/src/source_mc_chunk_get_v2_win.zip" "Windows Source")|
+|Installer  |EXE/Installer  |[MC_Chunk_Get_V2.exe](./Windows/installer/MC_Chunk_Get_V2.exe "Windows Installer")    |
+|Compiled      |Portable/Archive|[portable_mc_chunk_get_v2.zip](./Windows/compiled/portable_mc_chunk_get_v2.zip "Windows Portable")|
+|Source      |Project Files/Archive|[source_mc_chunk_get_v2_win.zip](./Windows/src/source_mc_chunk_get_v2_win.zip "Windows Source")|
 
 #### Linux
 

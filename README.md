@@ -1,7 +1,5 @@
 # MC Chunk Get V2
 
-UNDER CONSTRUCTION! - Will be ready soon!
-
 ![Badge 1](images/gu.png) ![Badge 2](images/mg.png) ![Badge 3](images/mu.png)
 
 ![Badge 4](images/oc.png) ![Badge 5](images/pc.png)
@@ -10,9 +8,13 @@ UNDER CONSTRUCTION! - Will be ready soon!
 
 Get coordinate boundaries of a chunk by providing any x, z coordinates inside of that chunk in **Minecraft**.
 
+[Official Release Page](https://lateralus138.github.io/MC-Chunk-Get-V2/)
+
 [Installation](#installation)
 
 [Files](#files)
+
+[Releases](#releasepage)
 
 ### Motivation
 
@@ -95,7 +97,15 @@ Sorry, nothing too personal. I don't have a Mac anymore. If someone wants to con
 
 #### Release Page
 
-Or you can get all files &amp; sources for all OSes at the projects release page: [Release]()
+<a name="releasepage"></a>
+
+Or you can get all files &amp; sources for all OSes at the projects release page:
+
+[Release Page](https://github.com/Lateralus138/MC-Chunk-Get-V2/releases/)
+
+[Main Release](https://lateralus138.github.io/MC-Chunk-Get-V2/)
+
+
 
 #### Images
 

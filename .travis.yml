@@ -1,8 +1,5 @@
-cd Linux/src
-{
-  "language": "python",
-  "os": [
-    "linux"
-  ],
-  "dist": "xenial",
-}
+language: python
+os: linux
+dist: xenial
+before_install:
+  cd Linux/src

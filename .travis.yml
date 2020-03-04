@@ -2,5 +2,5 @@ language: python
 os: linux
 dist: xenial
 before_install:
-  cd Linux/src
-  pip3 install --upgrade pip
+  - cd Linux/src
+  - pip3 install --upgrade pip

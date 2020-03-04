@@ -15,5 +15,8 @@ before_install:
   - sudo apt-get build-dep qt5-default
   - sudo apt-get install libx11-xcb-dev libglu1-mesa-dev build-essential
   - sudo apt-get install -qq libegl1-mesa
+  - sudo apt-get install locate
+  - sudo updatedb
+  - locate "qt5/plugins/platforms"
 install:
   - pip install -r requirements.txt

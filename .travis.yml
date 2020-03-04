@@ -8,7 +8,9 @@ before_install:
   - cd Linux/src
   - pip3 install --upgrade pip
   - pip3 install PyInstaller
+  - sudo apt-get update 
   - sudo apt-get build-dep qt5-default
   - sudo apt-get install libx11-xcb-dev libglu1-mesa-dev build-essential
+  - sudo apt-get install -qq libegl1-mesa
 install:
   - pip install -r requirements.txt

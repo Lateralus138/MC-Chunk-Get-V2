@@ -5,7 +5,7 @@ os: linux
 dist: xenial
 script: python3 mc_chunk_get_V2_py_edition_final.py
 before_install:
-  - export PATH=/usr/include:$PATH
+  - export QT_QPA_PLATFORM=offscreen go test -v -race
   - cd Linux/src
   - pip3 install --upgrade pip
   - pip3 install PyInstaller

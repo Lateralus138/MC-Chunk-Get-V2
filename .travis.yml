@@ -6,6 +6,7 @@ dist: xenial
 script: python3 mc_chunk_get_V2_py_edition_final.py
 before_install:
   - cd Linux/src
+  - export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms
   - pip3 install --upgrade pip
   - pip3 install setuptools
   - pip3 install PyInstaller

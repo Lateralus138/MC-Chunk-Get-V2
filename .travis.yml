@@ -5,9 +5,9 @@ os: linux
 dist: xenial
 script: python3 mc_chunk_get_V2_py_edition_final.py
 before_install:
-  - export QT_QPA_PLATFORM=offscreen go test -v -race
   - cd Linux/src
   - pip3 install --upgrade pip
+  - pip3 install setuptools
   - pip3 install PyInstaller
   - sudo apt-get update 
   - sudo apt-get build-dep qt5-default

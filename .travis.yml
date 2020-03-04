@@ -7,6 +7,6 @@ script: python mc_chunk_get_V2_py_edition_final.py
 before_install:
   - cd Linux/src
   - pip3 install --upgrade pip
-  - sudo apt install libxcb1-dev -y
+  - sudo apt install xcb -y
 install:
   - pip install -r requirements.txt

@@ -1,0 +1,4 @@
+cd Linux/src
+language: python
+os: linux
+dist: xenial

@@ -22,6 +22,8 @@ If you are anything like me you are a perfectionist or truly OCD or both &amp; y
 
 This application is a *cross platform* **[Python](https://www.python.org/)<sup>[1](#note1)</sup>** rewrite of my **[AutoHotkey](https://www.autohotkey.com/)<sup>[2](#note2)</sup>** GUI that does the exact same thing.
 
+Note: This does not currently work on the older 'Xenial' version of Ubuntu or any OS that uses older versions of the GLIBC library. You can find more information in the 'Issue' section of the main repository. I am working on fixing this.
+
 ## Usage
 
 Very simple to use, you can run it like any other gui application in your respective operating system.
@@ -147,6 +149,5 @@ Windows 10 Home    1903           10.0.18362.628
 
 [License File](LICENSE)
 
->This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
-
+>This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 >This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.

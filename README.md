@@ -1,10 +1,12 @@
 # MC Chunk Get V2
 
-![Badge 1](images/gu.png) ![Badge 2](images/mg.png) ![Badge 3](images/mu.png)
+## Disclaimer
 
-![Badge 4](images/oc.png) ![Badge 5](images/pc.png)
+> The `AppImage` provided here does not run on `Ubuntu 16.04  Xenial` and does not pass the `AppImage Hub` standards. I am working on this. Both of the *portable* versions of this program work just fine for both *Windows* and *Linux* and the installer works for *Windows*.
 
-![Badge 6](images/pp.png) ![Badge 7](images/ps.png)
+> The `AppImage` provide here and this *REAMDE* are: ![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACmElEQVQokUWSa0iTcRTGn//26u4b6ZQ0U8lKMqykwPpgZVBEHyLp8jEoIZJADCQ0iCiStIwuZmHRioIuroQss2VkrkIrdeFckiZqdhctTXPOve8Tr7M6X8/zO+fwPEfIwy7IwQA0GgExGYQwyhCmMLRX1z2hJCJSN+xZgqAZnPgCaAUQ0EHICjSYLlKBCDdNQb7HLmeRoy3zQFnzYk/1WTckGUIXCVD+Kw+BpAxtuBXCpkN7bdXt/JL3W3J3xuHg3iTsL/NkNFWVPoWkQOj/wxooCrRhFgiTjI4n9ZVHHQObjxVEY8UGIi1zEhVFCahwdq5qvn+hHkKC0EcBigxwvAnkW3ge7L6TMi+VztOLOOKOY8ulKL68GM2emnjeLF3AZSlz2FCZ6yaHwLGv6pkv8MyxsUoHLcsLwBuHwE0rtdy2UuLWNTpmpkkszQEfnAPDAd47tbaB7NaJR+eXujfmtGTUXgFWp5uwPd8Oi1GBJEmwWYlP34L4PSFw7chPeD+MYnkWUVmy0CeNfe5N8ANIjNWpNmHzqklYrDIGRwRm2gXsM/xofRMOf1AgcbYOAfgxMvgxCmS9+dbh5A6VarxuIMdBDoJ0g+vSreytNpAEux7qqWrK82I+kC2xYOAzyFbz5QNJPrXhdRo4XK/n3WILkxPsbKqwsr8xBB3PjukhGyJJv+qqB+QvkN0mR2Fim5pU1hobzxTYOPbcyJoTNpoAlu6wdZKvIslR0O9VXe0Clc5p2Ge4WDh36ux3ThM/1RqnNhXvilU32cjvINtAf4cKdkzlSHpBTqgNY11JfLtFA+o14NU8Wx/piggNfg2yGVR8EF9/dP37PyCIoDQLs8z9hmv71nsC4wFz9klX2tD4/AEG+gBoQ7KghD8MZ2xdnt7s7wAAAABJRU5ErkJggg==&label=Under&message=Construction&color=yellow)
+
+![Badge 1](images/gu.png) ![Badge 2](images/mg.png) ![Badge 3](images/mu.png) ![Badge 4](images/oc.png) ![Badge 5](images/pc.png) ![Badge 6](images/pp.png) ![Badge 7](images/ps.png)
 
 Get coordinate boundaries of a chunk by providing any x, z coordinates inside of that chunk in **Minecraft**.
 
